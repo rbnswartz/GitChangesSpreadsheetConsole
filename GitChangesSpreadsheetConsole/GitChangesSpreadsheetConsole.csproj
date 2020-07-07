@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Reuben Swartz</Authors>
+    <Product>Git Changes Spreadsheet Console</Product>
+    <Description>Create a set of spreadsheets listing changes between a git repo's current state and its last commit</Description>
+    <Copyright>2020 Reuben Swartz</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
+    <PackageReference Include="LibGit2Sharp" Version="0.26.1" />
+  </ItemGroup>
+
+</Project>
